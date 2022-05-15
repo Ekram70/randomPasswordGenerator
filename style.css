@@ -28,7 +28,7 @@ body {
   max-width: 100%;
 }
 
-h2 {
+.header {
   margin: 10px 0 20px;
   text-align: center;
 }

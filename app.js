@@ -6,7 +6,7 @@ const lowercase = document.querySelector("#lowercase");
 const numbers = document.querySelector("#numbers");
 const symbols = document.querySelector("#symbols");
 const generateBtn = document.querySelector("#generate");
-const copyIcon = document.querySelector("#clipboard i");
+const copyIcon = document.querySelector("#copy-icon");
 
 function random(start, end) {
   return Math.floor(Math.random() * (end - start) + start);
