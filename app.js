@@ -30,7 +30,7 @@ function symbol() {
 }
 
 generateBtn.addEventListener("click", function () {
-  let password = [];
+  let password = ["", "", "", ""];
   let passLengthVal = passLength.value;
   Number(passLengthVal) > 20 ? (passLengthVal = "20") : passLengthVal;
   const upperCaseVal = uppercase.checked;
